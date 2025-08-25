@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New Tab</title>
+    <link rel="preconnect" href="https://www.google.com" />
+    <link rel="preconnect" href="https://chatgpt.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="clock" class="clock" aria-live="off">
+      <time id="clock-visual" aria-hidden="true"></time>
+      <span id="clock-sr" class="sr-only" aria-live="polite" aria-atomic="true"></span>
+    </div>
+    <main class="container">
+      <section class="art" aria-hidden="true">
+        <div class="triangles">
+          <svg viewBox="-40 -40 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <g class="triangle t1"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+            <g class="triangle t2"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+            <g class="triangle t3"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+            <g class="triangle t4"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+            <g class="triangle t5"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+            <g class="triangle t6"><polygon class="poly" points="0,-30 -26,15 26,15"/></g>
+          </svg>
+        </div>
+      </section>
+      <form id="search-form" class="search" autocomplete="off" role="search" aria-label="Search">
+        <div class="search-field">
+          <label for="search-input" class="sr-only">Search the web or ask a question</label>
+          <input id="search-input" name="q" class="search-input" type="search" placeholder="Search or Ask with '?'" aria-describedby="search-help" enterkeyhint="search" autofocus spellcheck="false" />
+          <button type="submit" class="search-btn" aria-label="Search">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="2"/>
+              <path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+  </html>

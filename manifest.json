@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "NotNull New Tab",
+  "version": "0.1.0",
+  "description": "NotNull new tab extension with Search or Ask",
+  "action": {
+    "default_title": "Open NotNull New Tab"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
