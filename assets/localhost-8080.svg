@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <title>Localhost 8080</title>
+  <desc>Minimal server icon representing a local service on port 8080.</desc>
+  <rect x="3" y="4" width="18" height="12" rx="2" ry="2" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="7" cy="10" r="1.25" fill="#ffffff"/>
+  <circle cx="12" cy="10" r="1.25" fill="#ffffff"/>
+  <circle cx="17" cy="10" r="1.25" fill="#ffffff"/>
+  <rect x="8" y="18" width="8" height="2" rx="1" fill="#ffffff"/>
+</svg>
